@@ -23,6 +23,7 @@ mongoose
   .catch(err => console.log(err));
 
 // app.get("/", (req, res) => res.send("<h1>Hello world!</h1>"));
+
 // Passport middleware
 app.use(passport.initialize())        ;
 
